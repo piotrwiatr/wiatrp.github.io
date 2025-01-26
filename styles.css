@@ -85,6 +85,83 @@ li {
     color:#555555;
 }
 
+#mobile-nav {
+    display:none;
+    position:fixed;
+    top:0;
+    width:100%;
+    overflow:hidden;
+    flex-direction: column;
+    justify-content: left;
+    font-weight:bold;
+    font-size:1.10em;
+    box-shadow: 0 0 4px 0 #555555;
+    background-color:white;
+    margin:0;
+}
+
+#mobile-profile {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mobile-profile img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin:0 1em 0 0;
+    padding:0;
+}
+
+.mobile-row {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+
+.hamburg {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    font-size:2em;
+}
+
+#mobile-logo {
+    display:flex;
+    flex-direction: row;
+}
+
+#nav-links {
+    max-width:100%;
+    margin:0;
+    display:none;
+}
+
+#mobile-navigation {
+    max-width:100%;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+}
+
+#mobile-navigation a {
+    border-top: 1px black solid;
+    padding: 1.75em;
+}
+
+#mobile-navigation a:last-child {
+    border-bottom:1px black solid;
+}
+
+#mobile-navigation a:hover {
+    color: white;
+    background-color:black;
+}
+
 .cube-background {
     background-color: #e5e5f7;
     opacity: 1;
@@ -217,8 +294,8 @@ li {
 }
 
 .learn-more a:hover {
-    font-size:2em;
-    padding:0.65em 1.95em;
+    font-size:1.9em;
+    padding:0.50em 1.5em;
 }
 
 #about {
