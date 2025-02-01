@@ -218,6 +218,16 @@ li {
         margin:0 0 0 -2.5em;
     }
 
+    .socials li {
+        font-size:4em;
+        transition: font-size 0.3s ease;
+        margin:0;
+    }
+    
+    .socials li:hover {
+        font-size:5em;
+    }
+
     .learn-more {
         margin: 5vw 0 0 0;
     }
@@ -243,7 +253,7 @@ li {
     }
 }
 
-@media (650px < height < 800px) {
+@media (650px < height < 800px) and (width >= 600px){
     #home h1 {
         font-size: 4em;
         color:black;
@@ -276,6 +286,16 @@ li {
         justify-content: space-around;
         margin:0 0 0 -2.5em;
     }
+
+    .socials li {
+        font-size:4em;
+        transition: font-size 0.3s ease;
+        margin:0;
+    }
+    
+    .socials li:hover {
+        font-size:5em;
+    }
     
     .learn-more a {
         background-color: #009DB9;
@@ -298,9 +318,9 @@ li {
     }
 }
 
-@media (height <= 650px) {
+@media (height <= 650px) or (width < 600px) {
     #home h1 {
-        font-size: 4em;
+        font-size: 3em;
         color:black;
         margin:0;
     }
@@ -320,6 +340,7 @@ li {
         align-items: center;
         text-align: center;
         color:black;
+        margin:0;
     }
     
     .socials ul {
@@ -332,8 +353,18 @@ li {
         margin:0 0 0 -2.5em;
     }
 
+    .socials li {
+        font-size:3em;
+        transition: font-size 0.3s ease;
+        margin:0;
+    }
+    
+    .socials li:hover {
+        font-size:3.5em;
+    }
+
     .learn-more {
-        margin: -3em 0 0 0;
+        margin: -5em 0 0 0;
     }
     
     .learn-more a {
@@ -355,17 +386,6 @@ li {
         font-size:1.2em;
         padding:0.50em 1.5em;
     }
-}
-
-
-.socials li {
-    font-size:4em;
-    transition: font-size 0.3s ease;
-    margin:0;
-}
-
-.socials li:hover {
-    font-size:5em;
 }
 
 .linkedin i {
